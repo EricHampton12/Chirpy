@@ -1,0 +1,29 @@
+{
+    "users" : {
+        "1" : {
+            "id": "1",
+            "name" : "Eric Hampton",
+            "username": "OldSport",
+            "email": "Eric@test.com",
+            "followers": "70k",
+            "following": "700"
+        },
+        "2" : {
+            "id": "2",
+            "name" : "Yin Chen",
+            "username": "YinChen",
+            "email": "Yin@test.com",
+            "followers": "7k",
+            "following": "700"
+
+    }
+},
+"posts": {
+    "id": "45",
+    "userId": "1",
+    "body": "This is a random example of a Chirpy post body",
+    "likes": "1000",
+    "comments": "10",
+    "date": "Wednesday Oct 27th 08:56:32 GMT-0400 (Eastern Daylight Time)"
+    }
+}

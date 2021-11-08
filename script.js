@@ -1,3 +1,4 @@
+
 // DOM Elements
 const mainPage = document.querySelector(".main-page");
 const loginPage = document.querySelector(".login-page");
@@ -27,6 +28,7 @@ const circle = document.querySelector(".circle");
 const goToLoginPage = () => {
   mainPage.style.display = "none";
   loginPage.style.display = "grid";
+  
 };
 
 middleContent.addEventListener("click", (e) => {
@@ -46,6 +48,7 @@ btnTop.addEventListener("click", () => {
     goToLoginPage();
     loginModal.style.display = "block";
   }
+  // loginUser();
 });
 
 // Login page
@@ -98,6 +101,8 @@ modalInput.addEventListener("blur", (e) => {
     changeOpacity(0.5);
   }
 });
+
+
 
 // Sidebar
 user.addEventListener("click", () => {
